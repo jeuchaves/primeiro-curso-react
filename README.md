@@ -3,9 +3,4 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 # O que aconteceu nessa aula
 
-- Instalação do React através do 'Create React App'
-
-# Documentações importantes
-
-Link para o Create React App:
-https://create-react-app.dev/
+- Entendendo o JSX
