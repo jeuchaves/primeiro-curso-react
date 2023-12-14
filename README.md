@@ -3,4 +3,4 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 # O que aconteceu nessa aula
 
-- Entendendo o JSX
+- Introdução aos componentes
