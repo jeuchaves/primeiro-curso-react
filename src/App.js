@@ -2,6 +2,7 @@ import './App.css';
 import Frase from './components/Frase';
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
+import List from './components/List'
 
 function App() {
   const nome = "João";
@@ -21,6 +22,7 @@ function App() {
         altura="1.75"
         genero="Masculino"
       />
+      <List />
     </div>
   );
 }

@@ -3,10 +3,9 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 # O que aconteceu nessa aula
 
-## Adicionando `CSS`
+## Fragmentos
 
-- O **CSS** pode ser **adicionado de forma global** na aplicação, por meio do arquivo index.css por exemplo;
-- Porém é possível **estilizar a nível de componentes**;
-- Utilizamos o **CSS modules** para isso;
-- Basta criar um arquivo como: **Componente.module.css**;
-- E chamar este CSS no componente;
+- Os **React Fragments** permite a criação de um componente sem elemento pai;
+- O propósito é **descomplicar os nós do DOM**;
+- A sintaxe é **<> e </>**, não há um nome para a tag;
+- Criamos no próprio JSX;
