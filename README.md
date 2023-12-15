@@ -3,10 +3,9 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 # O que aconteceu nessa aula
 
-## Renderização por condição
+## Renderização de listas
 
-- Podemos atrelar a exibição de algum elemento a um **if**;
-- Esta ação é chamada de **renderização condicional**;
-- Envolvemos as tags em chaves **{}**;
-- Como as chaves **Executam JavaScript**, criamos nossa condição;
-- É possível usar o **state** para criar as condições;
+- Para renderizar uma lista vamos primeiramente precisar de um **aray**;
+- Depois utilizamos a **função map**, para percorrer cada um dos itens;
+- Podendo assim renderizar algo na tela;
+- É possível **unir operadores condicionais** com a renderização de listas;
