@@ -3,9 +3,17 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 # O que aconteceu nessa aula
 
-## `State Lift`
+## `React Router`
 
-- **State Lift** é uma técnica utilizada para compartilhar o state;
-- É normal vários componentes **dependerem do mesmo estado**
-- Então, precisamos elevar o nível do mesmo a um **componente pai**;
-- Então, centralizamos o state no pai, e **definimos quem usa e quem define** (setState);
+- O **React Router** é um pacote para mudança de URLs da aplicação;
+- Podemos assim acessar outras views, **sem o page reload**;
+- **Trocando apenas uma parte do layout da aplicação**, ou seja, o que muda de view para view;
+- Precisamos **instalar este pacote** no projeto;
+- E também realizar algumas mudanças em como o App é estruturado;
+
+## Anotações
+
+A instalação do pacote é pelo seguinte comando no terminal:
+``` 
+npm install react-router-dom
+```
