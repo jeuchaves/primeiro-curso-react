@@ -3,9 +3,9 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 # O que aconteceu nessa aula
 
-## Fragmentos
+## Avançado em `Props`
 
-- Os **React Fragments** permite a criação de um componente sem elemento pai;
-- O propósito é **descomplicar os nós do DOM**;
-- A sintaxe é **<> e </>**, não há um nome para a tag;
-- Criamos no próprio JSX;
+- Podemos **definir tipos para as props**, realizando uma espécie de validação;
+- Definimos em um objeto chamado propTypes no próprio componente;
+- E ainda há a possibilidade de **definir um valor padrão**;
+- Neste caso utilizamos o objeto **defaultProps**;
