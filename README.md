@@ -3,9 +3,9 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 # O que aconteceu nessa aula
 
-## Renderização de listas
+## `State Lift`
 
-- Para renderizar uma lista vamos primeiramente precisar de um **aray**;
-- Depois utilizamos a **função map**, para percorrer cada um dos itens;
-- Podendo assim renderizar algo na tela;
-- É possível **unir operadores condicionais** com a renderização de listas;
+- **State Lift** é uma técnica utilizada para compartilhar o state;
+- É normal vários componentes **dependerem do mesmo estado**
+- Então, precisamos elevar o nível do mesmo a um **componente pai**;
+- Então, centralizamos o state no pai, e **definimos quem usa e quem define** (setState);
