@@ -3,10 +3,27 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 # O que aconteceu nessa aula
 
-## `Eventos`
+## `useState`
 
-- Os **eventos de React** são os mesmos eventos do DOM;
-- Ou seja, temos eventos para responder a um click;
-- **O evento é atrelado a uma tag** que irá executá-lo;
-- Geralmente um **método** é atribuído ao evento;
-- Este método deve ser criado no componente;
+- O **useState** é um hook do React;
+- Com ele conseguimos **manusear o estado** de um componente de forma simples;
+- Este hook **funciona muito bem com eventos**;
+- Podemos **atrelar um evento** a mudança de state;
+
+## Minhas anotações
+
+A importação é feita da seguinte maneira:
+```
+import { useState } from "react";
+```
+
+Para cada parâmetro é necessário adicionar dois parâmetros aninhados no array, um é o valor e o outro é o método de alteração, como por exemplo:
+```
+const [name, setName] = useState();
+```
+
+Para que haja alteração do estado é necessário um gancho para isso, nesse caso para um input é conveniente que seja assim:
+```
+onChange={(e) => setName(e.target.value)}
+```
+
