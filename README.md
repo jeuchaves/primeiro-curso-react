@@ -3,9 +3,10 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 # O que aconteceu nessa aula
 
-## Métodos por `props`
+## Renderização por condição
 
-- Os **métodos** também podem ser passados por props;
-- Ou seja, um **componente filho pode ativar o método do seu ancestral**;
-- Vamos acessar o método por meio de um **evento**;
-- A sintaxe é a mesma de uma props de dados: **props.meuEvento**;
+- Podemos atrelar a exibição de algum elemento a um **if**;
+- Esta ação é chamada de **renderização condicional**;
+- Envolvemos as tags em chaves **{}**;
+- Como as chaves **Executam JavaScript**, criamos nossa condição;
+- É possível usar o **state** para criar as condições;
