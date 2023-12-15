@@ -3,17 +3,18 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 # O que aconteceu nessa aula
 
-## `React Router`
+## `React Icons`
 
-- O **React Router** é um pacote para mudança de URLs da aplicação;
-- Podemos assim acessar outras views, **sem o page reload**;
-- **Trocando apenas uma parte do layout da aplicação**, ou seja, o que muda de view para view;
-- Precisamos **instalar este pacote** no projeto;
-- E também realizar algumas mudanças em como o App é estruturado;
+- O **React Icons** é um pacote de ícones externo;
+- Precisamos **adicionar ao projeto através do npm;
+- Ele nos permite adicionar ícones ao projeto com uma **sintaxe parecida com a de componentes**;
+- Além disso **há uma grande quantidade de ícones** disponíveis;
 
 ## Anotações
 
-A instalação do pacote é pelo seguinte comando no terminal:
-``` 
-npm install react-router-dom
+Link do projeto [React Icons](https://react-icons.github.io/react-icons/)
+
+Para adicionar esse pacote basta usar isso no seu terminal:
+```
+npm install react-icons
 ```
