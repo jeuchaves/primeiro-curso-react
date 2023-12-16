@@ -5,10 +5,7 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 ## Criando o projeto do curso
 
-- Transformação do header e o footer em um componente;
-- Estilo desses dois componentes;
-- Criação de uma nova página **Projetos**;
-
+- Customização da página home
 
 
 
