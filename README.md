@@ -5,7 +5,7 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 ## Criando o projeto do curso
 
-- Customização da página home
+- Design primário da página **NewProject**
 
 
 
