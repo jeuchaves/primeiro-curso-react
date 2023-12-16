@@ -5,7 +5,9 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 ## Criando o projeto do curso
 
-- Design primário da página **NewProject**
+- Conectando com API pelo React
+- Uso do JSON-server
+- Categorias de seleção do formulário de criação de projeto
 
 
 
