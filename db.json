@@ -1,5 +1,31 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "name": "Guipacolor",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Jeú Chaves",
+      "budget": "3000",
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "ASDASD",
+      "budget": "2000",
+      "cost": 0,
+      "services": [],
+      "id": 3
+    }
+  ],
   "categories": [
     {
       "id": 1,
