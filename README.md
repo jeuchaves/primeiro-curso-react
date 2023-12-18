@@ -9,6 +9,13 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 - Uso do JSON-server
 - Categorias de seleção do formulário de criação de projeto
 
+## Anotações
+
+Comando importante para rodar o servidor local:
+```
+npm run backend
+```
+
 
 
 
