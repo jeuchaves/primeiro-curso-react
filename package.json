@@ -2,6 +2,7 @@
   "name": "primeiro-curso-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jeuchaves.github.io/primeiro-curso-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -16,6 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "npm run build && cd node_modules && cd .bin && gh-pages -d ../../build",
     "start": "react-scripts start",
     "backend": "json-server --watch db.json --port 5000",
     "build": "react-scripts build",
