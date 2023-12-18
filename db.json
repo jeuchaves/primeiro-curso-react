@@ -12,20 +12,6 @@
       "id": 1
     },
     {
-      "name": "Jeú Chaves",
-      "budget": "3000",
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "ASDASD",
-      "budget": "2000",
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
       "name": "Projeto teste",
       "budget": "3000",
       "category": {
@@ -68,6 +54,17 @@
       "cost": 0,
       "services": [],
       "id": 7
+    },
+    {
+      "name": "Mais um projeto",
+      "budget": "5500",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 8
     }
   ],
   "categories": [
