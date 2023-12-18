@@ -13,7 +13,7 @@
     },
     {
       "name": "Segundo teste",
-      "budget": "6000",
+      "budget": "13000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
