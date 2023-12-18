@@ -18,8 +18,15 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 5000,
+      "services": [
+        {
+          "name": "Jeú Chaves",
+          "cost": "5000",
+          "description": "asdasdasd",
+          "id": "481328f2-0937-40d4-b42a-e57ebb997dd8"
+        }
+      ],
       "id": 2
     }
   ],
