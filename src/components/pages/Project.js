@@ -2,7 +2,7 @@ import styles from './Project.module.css';
 
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { v4 as uuidv4 } from 'uuid';
+import { parse, v4 as uuidv4 } from 'uuid';
 
 import Loading from '../layout/Loading';
 import Container from '../layout/Container';
@@ -116,7 +116,30 @@ function Project() {
 			.catch(err => console.log(err));
 	}
 
-	function removeService() {}
+	function removeService(id, cost) {
+		
+		const servicesUpdate = project.services.filter((service) => service.id !== id);
+		const projectUpdated = project;
+		
+		// Atualiza o custo do projeto
+		projectUpdated.services = servicesUpdate;
+		projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost);
+
+		fetch(`http://localhost:5000/projects/${projectUpdated.id}`, {
+			method: 'PATCH',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(projectUpdated)
+		}).then(resp => resp.json())
+		.then((data) => {
+			setProject(projectUpdated);
+			setServices(servicesUpdate);
+			setMessage('Serviço removido com sucesso')
+			setType('sucess');
+		})
+		.catch(err => console.log(err));
+	}
 
 	return (
 		<>
