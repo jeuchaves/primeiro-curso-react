@@ -1,0 +1,51 @@
+{
+  "projects": [
+    {
+      "name": "Projeto teste",
+      "budget": "6000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 2000,
+      "services": [
+        {
+          "name": "Contratar teste",
+          "cost": "2000",
+          "description": "Testando",
+          "id": "e9f40edd-bd9c-43ca-b47d-e70146a98e97"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Segundo teste",
+      "budget": "13000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
