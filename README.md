@@ -5,16 +5,8 @@ Esse repositório visa eu programar juntamente com os vídeos do curso um gerenc
 
 ## Criando o projeto do curso
 
-- Conectando com API pelo React
-- Uso do JSON-server
-- Categorias de seleção do formulário de criação de projeto
-
-## Anotações
-
-Comando importante para rodar o servidor local:
-```
-npm run backend
-```
+- Desenvolvimento da `flash message` para o cadastramento de um novo projeto com sucesso.
+- Uso de useState e useEffect em `Message` para setar visibilidade e tempo em tela.
 
 
 
