@@ -18,13 +18,25 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 5000,
+      "cost": 11000,
       "services": [
         {
           "name": "Jeú Chaves",
           "cost": "5000",
           "description": "asdasdasd",
           "id": "481328f2-0937-40d4-b42a-e57ebb997dd8"
+        },
+        {
+          "name": "Jeú Chaves",
+          "cost": "5000",
+          "description": "Testando mais uma vaz",
+          "id": "7b2bf327-b4f5-41a0-b9db-08dc8640ee1b"
+        },
+        {
+          "name": "Testando",
+          "cost": "1000",
+          "description": "Testando",
+          "id": "5429a434-3dde-4c88-a23e-d002dd563089"
         }
       ],
       "id": 2
